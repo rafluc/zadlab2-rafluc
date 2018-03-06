@@ -11,6 +11,8 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO zad 3, 4, 6, 7
+        
+        System.out.println("Przykładowa zmiana");
     }
     
 }
