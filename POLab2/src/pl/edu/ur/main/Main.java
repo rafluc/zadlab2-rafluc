@@ -81,7 +81,7 @@ public class Main {
             }
         }
          */
-        int a = 5, b = 2, c = 6;
+        int a = 1, b = 2, c = 1;
 
         double x1, x2, delta;
         delta = b * b - 4 * a * c;
@@ -89,5 +89,18 @@ public class Main {
             System.out.println("delta ujemna");
         }
         else
+            if(delta==0)
+            {
+                x1=-b/2*a;
+                System.out.println("x1=" + x1);
+            }
+        else
+            if(delta>0)
+            {
+            x1=(-b+Math.sqrt(delta))/2*a;
+            x2=(-b-Math.sqrt(delta))/2*a;
+                System.out.println("x1=" + x1 + "x2=" + x2);
+            
+            }
     }
 }
