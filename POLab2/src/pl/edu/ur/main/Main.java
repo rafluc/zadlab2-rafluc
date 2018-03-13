@@ -181,7 +181,7 @@ int abc;
         }
 
         for (int i = 0; i < ile; i++) {
-            System.out.println("T[" + i + "] = " + x[i]);
+            System.out.println("Tablica[" + i + "] = " + x[i]);
         }
             } else {
                 System.out.println("blad");
